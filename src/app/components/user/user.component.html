@@ -12,27 +12,27 @@
 <form>
   <div>
     <label for="name">Name:</label><br>
-    <input type="text" id="name">
+    <input type="text" id="name" [(ngModel)]="name" name="name">
   </div>
   <div>
     <label for="email">Email:</label><br>
-    <input type="text" id="email">
+    <input type="text" id="email" [(ngModel)]="email" name="email"email>
   </div>
   <div>
     <label for="age">Age:</label><br>
-    <input type="number" id="age">
+    <input type="number" id="age" [(ngModel)]="age" name="age">
   </div>
   <div>
-    <label for="street">Scitytreet:</label><br>
-    <input type="text" id="street">
+    <label for="street">Street:</label><br>
+    <input type="text" id="street" [(ngModel)]="address.street" name="street">
   </div>
   <div>
     <label for="city">City:</label><br>
-    <input type="text" id="city">
+    <input type="text" id="city" [(ngModel)]="address.city" name="city">
   </div>
   <div>
     <label for="state">State:</label><br>
-    <input type="text" id="state">
+    <input type="text" id="state" [(ngModel)]="address.state" name="state">
   </div>street
 </form>
 
